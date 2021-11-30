@@ -1,0 +1,37 @@
+{
+  "name": "@formhero/graphql-demo",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A really simple GraphQL server",
+  "main": "index.js",
+  "scripts": {
+    "start": "env NODE_ENV=development node --experimental-specifier-resolution=node ./index.js"
+  },
+  "engines": {
+    "node": "16.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbeaulieu/graphql-demo.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "Fastify",
+    "Node"
+  ],
+  "author": "fbeaulieu",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/fbeaulieu/graphql-demo/issues"
+  },
+  "homepage": "https://github.com/fbeaulieu/graphql-demo#readme",
+  "dependencies": {
+    "fastify": "^3.24.0",
+    "fastify-cors": "^6.0.2",
+    "graphql": "^15.7.2",
+    "graphql-voyager-fastify-plugin": "^0.1.3",
+    "lowdb": "^3.0.0",
+    "mercurius": "^8.9.1",
+    "uuid": "^8.3.2"
+  }
+}

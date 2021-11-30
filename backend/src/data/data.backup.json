@@ -1,0 +1,100 @@
+{
+  "travelers": [
+    {
+      "id": "TR1",
+      "firstName": "Bill",
+      "lastName": "Gates",
+      "country": "United States",
+      "city": "Medina - WA",
+      "age": "66",
+      "email": "bill.gates@travel.com"
+    },
+    {
+      "id": "TR2",
+      "firstName": "Jeff",
+      "lastName": "Bezos",
+      "country": "United States",
+      "city": "Medina - WA",
+      "age": "57",
+      "email": "jeff.bezos@travel.com"
+    },
+    {
+      "id": "TR3",
+      "firstName": "Tobias",
+      "lastName": "Lutke",
+      "country": "Canada",
+      "city": "Ottawa",
+      "age": "41",
+      "email": "tobias.lutke@travel.com"
+    },
+    {
+      "id": "TR4",
+      "firstName": "Ryan",
+      "lastName": "Kimber",
+      "country": "Canada",
+      "city": "Waterloo",
+      "age": "35",
+      "email": "ryan.kimber@daylight.io"
+    }
+  ],
+  "destinations": [
+    {
+      "id": "DE1",
+      "name": "Grand Canyon",
+      "description": "A very grand canyon!",
+      "country": "United States",
+      "rating": 3,
+      "contact": "No direct contact"
+    },
+    {
+      "id": "DE2",
+      "name": "Eiffel Tower",
+      "description": "A very high tower!",
+      "country": "France",
+      "rating": 4,
+      "contact": "Tourists Agencies in France"
+    },
+    {
+      "id": "DE3",
+      "name": "Lake Louise",
+      "description": "A very beautifull lake!",
+      "country": "Canada",
+      "rating": 5,
+      "contact": "Alberta City Services"
+    }
+  ],
+  "trips": [
+    {
+      "id": "TP1",
+      "destination": "DE1",
+      "beginDate": "2021-05-01",
+      "endDate": "2021-05-07",
+      "rating": 4,
+      "traveler": "TR1"
+    },
+    {
+      "id": "TP2",
+      "destination": "DE2",
+      "beginDate": "2021-06-15",
+      "endDate": "2021-06-30",
+      "rating": 3,
+      "traveler": "TR1"
+    },
+    {
+      "id": "TP3",
+      "destination": "DE2",
+      "beginDate": "2021-01-01",
+      "endDate": "2021-01-31",
+      "rating": 5,
+      "traveler": "TR2"
+    },
+    {
+      "id": "TP4",
+      "destination": "DE3",
+      "beginDate": "2021-09-01",
+      "endDate": "2021-09-03",
+      "rating": 2,
+      "traveler": "TR3"
+    }
+  ]
+}
