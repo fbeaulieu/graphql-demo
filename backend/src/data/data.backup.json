@@ -26,15 +26,6 @@
       "city": "Ottawa",
       "age": "41",
       "email": "tobias.lutke@travel.com"
-    },
-    {
-      "id": "TR4",
-      "firstName": "Ryan",
-      "lastName": "Kimber",
-      "country": "Canada",
-      "city": "Waterloo",
-      "age": "35",
-      "email": "ryan.kimber@daylight.io"
     }
   ],
   "destinations": [
